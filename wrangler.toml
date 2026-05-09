@@ -1,0 +1,11 @@
+name = "moatazai1"
+main = "src/index.ts"
+compatibility_date = "2026-05-01"
+
+[vars]
+# ضع هنا القيم غير السرية فقط. الأسرار ضعها عبر wrangler secret put
+BOT_NAME = "Personal Builder Bot"
+WEBHOOK_PATH = "/telegram/webhook"
+ALLOWED_ADMIN_ONLY = "true"
+# اختياري: رابط API خارجي ينفذ التوليد الثقيل، مثل Replit/Railway/VPS
+# WORKER_API_URL = "https://your-worker.example.com"
